@@ -1,8 +1,6 @@
 
 
     document.getElementById('btn-withdraw').addEventListener('click', function(){
-    console.log('click here');
-
     const withdrawField = document.getElementById('withdraw-field');
     const newWithdrawAmountString = withdrawField.value;
     const newWithdrawAmount = parseFloat(newWithdrawAmountString);
@@ -23,8 +21,6 @@
     const previousBalanceTotalString = totalBalanceElement.innerText;
     const previousBalanceTotal = parseFloat(previousBalanceTotalString);
 
-
-    
 
 
     if(newWithdrawAmount > previousBalanceTotal){

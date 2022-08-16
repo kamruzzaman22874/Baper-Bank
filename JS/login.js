@@ -1,6 +1,6 @@
 
-document.getElementById('btn-input').addEventListener('click', function(){
-    const userEmail = document.getElementById('user-input');
+document.getElementById('btn-submit').addEventListener('click', function(){
+    const userEmail = document.getElementById('user-email');
     const email = userEmail.value;
 
     const userPassword = document.getElementById('user-password');
@@ -10,7 +10,7 @@ document.getElementById('btn-input').addEventListener('click', function(){
         window.location.href = 'bank.html';
     }
     else{
-        alert('Ekhane Rongbaji Cholbena')
+        alert('Ekhane Rongbaji Cholbena');
     }
 })
 
